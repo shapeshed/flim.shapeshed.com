@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1 George Ornbo
+  - var months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+  each post, i in posts
+    if post.date.getFullYear() !== lastYear
+      if i !== 0 
+        | </ul>
+      h2= post.date.getFullYear()
+      | <ul>
+    li #{post.date.getDate()} #{months[post.date.getMonth()]} 
+       
+      
+      a(href="/" + post.slug + "/")
+        = post.title
+    if i === posts.length-1
+      | </ul>
+
+    - var lastYear = post.date.getFullYear()

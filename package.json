@@ -1,0 +1,19 @@
+{
+  "name": "shapeshed.com",
+  "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
+  "private": true,
+  "version": "0.0.0",
+  "description": "It is a blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shapeshed/shapeshed.com.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "flim": "git+ssh://git@github.com:shapeshed/flim.git",
+    "cssmin": "0.3.2",
+    "http-server": "0.5.3"
+  }
+}
