@@ -15,7 +15,7 @@
     "test": "make build"
   },
   "dependencies": {
-    "flim": "git+ssh://git@github.com:shapeshed/flim.git",
+    "flim": "git://github.com:shapeshed/flim.git",
     "cssmin": "0.3.2",
     "http-server": "0.5.3"
   }
