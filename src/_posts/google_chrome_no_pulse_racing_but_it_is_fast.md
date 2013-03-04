@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Google Chrome - no pulse racing but it is fast",
   "date": "Wed Sep 10 2008 00:00:00 GMT+0100 (BST)",
-  "description": "Last week Google launched a new web browser <a href=\"http://www.google.com/chrome\">Google Chrome</a>. Built to facilitate the next generation of web applications the browser is an exciting newcomer to the market that wins on performance and features but looks like 'my first web browser'.",
+  "description": "Last week Google launched a new web browser Google Chrome. Built to facilitate the next generation of web applications the browser is an exciting newcomer to the market that wins on performance and features but looks like 'my first web browser'.",
   "tags": [
     "Browsers",
     "Google",
