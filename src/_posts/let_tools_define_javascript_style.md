@@ -44,7 +44,7 @@ Clearly for small teams it makes sense to have this discussion up front, have an
 
 JavaScript tooling is improving all the time and linting tools are now very capable at encapsulating your opinion. [JSHint][5] and [JSLint][6] are both excellent tools that not only lint your code for common mistakes but also let you specify a large amount of style. As this is a common requirement you can enapsulate this in a `.jshintrc` file and carry it round your projects. A `.jshintrc` file is a JSON file that contains your preferences about how the linter should behave. If you want to lint that strict mode should be used all the time just do this
 
-    "strict": false
+    "strict": true
 
 There are [many options][7] you can configure and the chances are you already have opinions about what they should be. Once you have your opinions documented you can integrate your opinion into your build process. Grunt is a good choice for this. First install the command line inteface for grunt.
 
