@@ -3,7 +3,9 @@
   "title": "Easing Rails development with Hirb",
   "date": "Wed Mar 10 2010 00:00:00 GMT+0000 (GMT)",
   "description": "If you spend a lot of time in the console using Hirb is a great way to work faster and improve the output",
-  "tags": "Rails"
+  "tags": [
+    "Rails"
+  ]
 }
 
 ## Rails Console
