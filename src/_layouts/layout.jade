@@ -6,10 +6,22 @@ html
     meta(name="author", content="George Ornbo")
     meta(name="viewport", content="width=device-width,initial-scale=1")
     link(rel="stylesheet", href="/stylesheets/screen.css")
-    link(rel="stylesheet", href="http://yandex.st/highlightjs/7.3/styles/solarized_dark.min.css")
     link(href="/atom.xml", rel="alternate", title="Shape Shed", type="application/atom+xml")
   body
     block content
+    footer
+      p George Ornbo is a JavaScript and Ruby developer based in London, UK. He is the author of <a class="highlight" href="http://nodejsbook.io">Sams Teach Yourself Node.js in 24 Hours</a>. 
+      ul
+        li
+          a.highlight(href="/") Home
+        li
+          a.highlight(href="http://feeds.feedburner.com/shapeshed") RSS Feed
+        li
+          a.highlight(href="https://github.com/shapeshed") GitHub
+        li
+          a.highlight(href="https://twitter.com/shapeshed") Twitter
+        li
+          a.highlight(href="https://plus.google.com/u/2/112147367550950112369/?rel=author") Google+
     script(type='text/javascript')
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-324369-3']);
@@ -21,6 +33,6 @@ html
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    script(src="http://yandex.st/highlightjs/7.3/highlight.min.js")
+    script(src="/javascripts/application.js")
     script
       hljs.initHighlightingOnLoad();

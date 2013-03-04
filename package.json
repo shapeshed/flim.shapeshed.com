@@ -17,6 +17,7 @@
   "dependencies": {
     "flim": "git://github.com/shapeshed/flim.git",
     "cssmin": "0.3.2",
+    "uglify-js": "1.3.4",
     "http-server": "0.5.3"
   }
 }

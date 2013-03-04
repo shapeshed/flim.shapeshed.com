@@ -28,9 +28,9 @@ Once we have done this draw a rectangle and then click on the pattern. Straight 
 This is the tricky bit. I'm going to add a corner to the frame. I've drawn a motif that I want to appear in the corner of the frame. In the brushes panel you will see there are several boxes. The first box is the one that sets the corners. To add the shape you have drawn select it and then hold Alt as you drag it into the box. Watch the video below to see this in action. 
 
 <video controls>
-  <source src="/movies/mp4/border_movie.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-  <source src="/movies/ogv/border_movie.ogv" type='video/ogg; codecs="theora, vorbis"' />
-  To view this video you need the latest version of <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.mozilla.com/firefox/">Firefox</a> or <a href="http://www.google.com/chrome">Chrome</a>. Alterantively download the videos and watch them offline. <a href="/movies/mp4/border_movie.mp4">Windows / Mac (mp4)</a>, <a href="/movies/ogv/border_movie.ogv">Linux (ogv)</a>
+  <source src="http://cdn.shapeshed.com/movies/mp4/border_movie.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  <source src="http://cdn.shapeshed.com/movies/ogv/border_movie.ogv" type='video/ogg; codecs="theora, vorbis"' />
+  To view this video you need the latest version of <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.mozilla.com/firefox/">Firefox</a> or <a href="http://www.google.com/chrome">Chrome</a>. Alterantively download the videos and watch them offline. <a href="http://cdn.shapeshed.com/movies/mp4/border_movie.mp4">Windows / Mac (mp4)</a>, <a href="http://cdn.shapeshed.com/movies/ogv/border_movie.ogv">Linux (ogv)</a>
 </video>
 
 If you drag it in and a new brush is created then you have not pressed ALT. You will see the pattern brush options appear again and you can update any existing occurrences of the pattern brush. After I've added the corners my frame looks like this: 
