@@ -19,7 +19,11 @@ server:
 	@./node_modules/http-server/bin/http-server ./build
 
 gzip:
-	@./bin/gzip.sh
+	@find ./build -type f | \
+	while read -r x; \
+	do \
+		gzip -c -9 $$x > $$x.gz; \
+	done
 
 rsync: 
 	@rsync -avz -e "ssh" --delete ./build/ shapeshed.com:/srv/shapeshed.com
