@@ -56,4 +56,4 @@ gzip:
 	done
 
 rsync: 
-	@rsync -avz -e "ssh" --delete ./build/ shapeshed.com:/srv/shapeshed.com
+	@rsync -az -e "ssh" --delete ./build/ shapeshed.com:/srv/shapeshed.com
