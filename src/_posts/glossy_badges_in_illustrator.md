@@ -42,8 +42,8 @@ Now we need to add the gloss so it is time for the good old Opacity Mask. First 
 Now copy the inner star that you have drawn and paste it in front of the original (Edit > Paste in Front). Call this layer "highlight". Now make sure you have the correct layer selected and give your copy have a white fill. No call up the transparency menu and in the fly-out menu in the top right click Make Opacity Mask. Now go back to your layer "curve" and copy this. Return to the opacity mask and paste it in to show the highlight. Add a gradient to complete the effect. This is a little complex so watch the video below if you are struggling. Sorry for the poor video - it is the best I can do at the moment!
 
 <video controls>
-  <source src="/movies/mp4/opacity_mask.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-  <source src="/movies/ogv/opacity_mask.ogv" type='video/ogg; codecs="theora, vorbis"' />
+  <source src="http://cdn.shapeshed.com/movies/mp4/opacity_mask.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  <source src="http://cdn.shapeshed.com/movies/ogv/opacity_mask.ogv" type='video/ogg; codecs="theora, vorbis"' />
   To view this video you need the latest version of <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.mozilla.com/firefox/">Firefox</a> or <a href="http://www.google.com/chrome">Chrome</a>. Alterantively download the videos and watch them offline. <a href="/movies/mp4/opacity_mask.mp4">Windows / Mac (mp4)</a>, <a href="/movies/ogv/opacity_mask.ogv">Linux (ogv)</a>
 </video>
 

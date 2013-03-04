@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Google Chrome - no pulse racing but it is fast",
   "date": "Wed Sep 10 2008 00:00:00 GMT+0100 (BST)",
-  "description": "Last week Google launched a new web browser <a href=\"http://www.google.com/chrome\">Google Chrome</a>. Built to facilitate the next generation of web applications the browser is an exciting newcomer to the market that wins on performance and features but looks like 'my first web browser'.",
+  "description": "Last week Google launched a new web browser Google Chrome. Built to facilitate the next generation of web applications the browser is an exciting newcomer to the market that wins on performance and features but looks like 'my first web browser'.",
   "tags": [
     "Browsers",
     "Google",
@@ -57,5 +57,5 @@ Chrome is a positive step forward for the average user's experience of the inter
  [9]: http://ben-ward.co.uk/
  [10]: http://shapeshed.com/images/articles/most_visited.jpg
  [11]: http://www.microsoft.com/windows/internet-explorer/beta/default.aspx
- [12]: www.mozilla.com/firefox
+ [12]: http://www.mozilla.com/firefox
  [13]: http://www.opera.com/

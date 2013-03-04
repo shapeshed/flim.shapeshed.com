@@ -3,7 +3,9 @@
   "title": "Setting up Git for multiple developers",
   "date": "Wed Mar 31 2010 00:00:00 GMT+0100 (BST)",
   "description": "How to set up git for multiple developers with granular access permissions",
-  "tags": "git"
+  "tags": [
+    "git"
+  ]
 }
 
 ## The problem
