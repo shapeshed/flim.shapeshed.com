@@ -57,5 +57,5 @@ Chrome is a positive step forward for the average user's experience of the inter
  [9]: http://ben-ward.co.uk/
  [10]: http://shapeshed.com/images/articles/most_visited.jpg
  [11]: http://www.microsoft.com/windows/internet-explorer/beta/default.aspx
- [12]: www.mozilla.com/firefox
+ [12]: http://www.mozilla.com/firefox
  [13]: http://www.opera.com/
