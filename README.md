@@ -17,3 +17,10 @@ The site is built on [flim](https://github.com/shapeshed/flim), a static site ge
 ## Deployment
 
     make deploy
+
+## OSX specific notes
+
+If you are on OSX the `Makefile` uses GNU sed and GNU md5sum. To install these on a Mac do
+
+    brew install --default-names gnu-sed
+    brew install md5sha1sum
