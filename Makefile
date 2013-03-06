@@ -23,11 +23,7 @@ md5-css:
 	@mv ./build/stylesheets/application.css ./build/stylesheets/application-$(CSSMD5).css 
 
 replace-css-string:
-	@find ./build -name 'index.html' | \
-	while read -r x; \
-	do \
-		sed -i '' s/screen\.css/application-$(CSSMD5)\.css/ $$x; \
-	done
+	@find ./build -name index.html -exec sed -i "s/screen\.css/application-$(CSSMD5)\.css/" {} \;
 
 concat-js:
 	@cat src/javascripts/highlight.min.js > ./build/javascripts/application.js.tmp 
@@ -39,11 +35,7 @@ md5-js:
 	@mv ./build/javascripts/application.js ./build/javascripts/application-$(JSMD5).js 
 
 replace-js-string:
-	@find ./build -name 'index.html' | \
-	while read -r x; \
-	do \
-		sed -i '' s/application\.js/application-$(JSMD5)\.js/ $$x; \
-	done
+	@find ./build -name index.html -exec sed -i "s/application\.js/application-$(JSMD5)\.js/" {} \;
 
 server:
 	@./node_modules/http-server/bin/http-server ./build
