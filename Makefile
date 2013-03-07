@@ -5,7 +5,7 @@ build: flim copy-files concat-css min-css md5-css replace-css-string concat-js m
 deploy: gzip rsync
 
 flim:
-	@./node_modules/flim/bin/flim.js
+	@./node_modules/flim/bin/flim
 
 copy-files: 
 	@rsync -aq --exclude='_*' --exclude='*.css' --exclude='*.js' ./src/ ./build 
