@@ -1,0 +1,22 @@
+{
+  "site_name": "Shape Shed",
+  "src_dir": "./src",
+  "build_dir": "./build",
+  "tags": {
+    "tags_dir": "tags", 
+    "template": "./src/_layouts/tag.jade"
+  },
+  "pages": {
+    "index": {
+      "title": "Home",
+      "meta": {
+        "description": "My description",
+        "keywords": "foo, bar, baz"
+      },
+      "template": "./src/_layouts/index.jade"
+    },
+    "posts": {
+      "template": "./src/_layouts/post.jade"
+    }
+  }
+}
