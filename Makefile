@@ -1,11 +1,12 @@
 SHELL := /bin/bash
 CSSMD5 = $(shell md5sum ./build/stylesheets/application* | awk '{ print $$1 }')
 JSMD5 = $(shell md5sum ./build/javascripts/application* | awk '{ print $$1}')
+
 build: flim copy-files concat-css min-css md5-css replace-css-string concat-js min-js md5-js replace-js-string
 deploy: gzip rsync
 
 flim:
-	@./node_modules/flim/bin/flim.js
+	@./node_modules/flim/bin/flim generate
 
 copy-files: 
 	@rsync -aq --exclude='_*' --exclude='*.css' --exclude='*.js' ./src/ ./build 
