@@ -1,8 +1,8 @@
 {
   "layout": "post",
-  "title": "Working with files in Node.js",
+  "title": "Working with filesystems in Node.js",
   "date": "Fri Mar 08 2013 08:38:51 GMT+0000 (GMT)",
-  "description": "Node's fs module gives you a reasonable toolkit for working with cross-platform filesystems. With a few third-party modules it becomes everything you need",
+  "description": "Node's fs module gives you a great cross-platform toolkit for working with filesystems. With a few third-party modules it becomes everything you need",
   "tags": [
     "Node.js",
     "JavaScript"
@@ -62,28 +62,28 @@ If you are a UNIX user you are probably used to doing `mkdir -p /some/directory/
 
 [chomdr][3] does what you would expect `chmod -R` or recursively changing file or folder permissions. 
 
-  chmodr("/some/folder", 0777, function (err) {
-    if (err) { throw err; }
-    // done
-  })
+    chmodr("/some/folder", 0777, function (err) {
+      if (err) { throw err; }
+      // done
+    })
 
 ## chown
 
 [chown][3] recursively changes the ownership of files and folders like `chown -R` in UNIX. 
 
-  chownr("/some/folder", 0777, function (err) {
-    if (err) { throw err; }
-    // done
-  })
+    chownr("/some/folder", 501, 20, function (err) {
+      if (err) { throw err; }
+      // done
+    })
 
 ## ncp
 
 Sooner or later you will want to do a recursive copy like `cp -R` in UNIX. This is tricky with the `fs` module but a module called [ncp][5] can help you achive that.
 
-  ncp('/dir/to/copy/from', '/dir/to/copy/to', function (err) {
-    if (err) { throw err; }
-    // done
-  });
+    ncp('/dir/to/copy/from', '/dir/to/copy/to', function (err) {
+      if (err) { throw err; }
+      // done
+    });
 
 ## Other tools
 
