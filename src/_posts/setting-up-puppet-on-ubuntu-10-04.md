@@ -70,7 +70,7 @@ Now on the Puppet Master you need to set up the puppet configuration in /etc. Jo
 
 This provides a basic stucture for Puppet configuration. We'll come onto writing manifests in a later post. Now we can start the Puppet daemon, making the relevant system users in the process
 
-    sudo puppet master --mkusers --verbose --no-daemonize
+    puppet master --mkusers --verbose --no-daemonize
 
 If you see it start then great. I encountered a [bug][7] here that meant the Puppet Master Deamon failed to start. The issue here is that file ownership isn't set correctly I fixed this with
 
@@ -78,11 +78,11 @@ If you see it start then great. I encountered a [bug][7] here that meant the Pup
 
 Once you are sure everything is ok you can daemonize Puppet with
 
-    sudo puppet master
+    puppet master
 
 Finally we can run a local test to make sure that everything is running as expected
 
-    sudo puppet agent --test --server=`hostname`
+    puppet agent --test --server=`hostname`
 
 You should see something like
 
