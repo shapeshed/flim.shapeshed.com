@@ -35,7 +35,7 @@ What you may know is that until ES5 undefined was mutable so if there are other 
     foo = undefined;
     console.log(foo); // "oops"
 
-ES5 improved this by making undefined immutable. If your JavaScript engine [supports ES5][4] (and that feature) you are good. Or you might think you are. Because undefined isn't a reserved word it may be used as a function variable name. This also leads to unwanted results.
+ES5 improved this by making undefined immutable. If your JavaScript engine [supports ES5][4] (and that feature) you are good. Or you might think you are. Because undefined isn't a reserved word it may be used as a function argument name. This also leads to unwanted results.
 
     var foo = function (undefined) {
 
@@ -83,9 +83,9 @@ Compiles to
 
 ## Swerve the bear trap
 
-Undefined is another potential bear trap in JavaScript that can lose hours in debugging that can be avoid if you understand how it works. Because JavaScript can always be run in the context of other scripts you might well reference undefined and then find that somewhere else it has been redefined, either by being reassigned in ES3 or being used as a function variable in ES5. 
+Undefined is another potential bear trap in JavaScript that can lose hours in debugging that can be avoid if you understand how it works. Because JavaScript can always be run in the context of other scripts you might well reference undefined and then find that somewhere else it has been redefined, either by being reassigned in ES3 or being used as a function argument in ES5. 
 
-Of course this is terrible programming but if you throw your scripts out there on the web you've got to expect that somewhere, at some time someone is going to do it. You can use linters to some extent to avoid this. JSHint for example allows you to enforce ES5 mode which will complain if you try and reassign undefined, but using undefined as a function variable is legal. 
+Of course this is terrible programming but if you throw your scripts out there on the web you've got to expect that somewhere, at some time someone is going to do it. You can use linters to some extent to avoid this. JSHint for example allows you to enforce ES5 mode which will complain if you try and reassign undefined, but using undefined as a function argument is legal. 
 
 Whether you chose to use `void 0` or not is up to you, but you should at least be aware that undefined isn't absolutely immutable. 
 
