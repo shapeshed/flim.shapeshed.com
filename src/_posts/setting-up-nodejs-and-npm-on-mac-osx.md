@@ -44,7 +44,7 @@ Node.js is pretty low level so lots of people have created modules for Node. Tha
 
 For [various reasons][10] the package was recently removed from Homebrew so you'll need to install it manually.
 
-    curl http://npmjs.org/install.sh | sh
+    curl https://npmjs.org/install.sh | sh
 
 If executing scripts from curl makes you nervous you can download the source and then install:
 
