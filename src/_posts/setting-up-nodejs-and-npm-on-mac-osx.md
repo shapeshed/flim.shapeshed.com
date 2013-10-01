@@ -87,7 +87,7 @@ That's it - go create!
 [1]: http://github.com/mxcl/homebrew
 [2]: http://github.com/mxcl/homebrew/blob/master/README.md
 [3]: http://developer.apple.com/technologies/xcode.html
-[4]: http://nodejs.org/api.html
+[4]: http://nodejs.org/api
 [5]: http://github.com/isaacs/npm
 [6]: http://expressjs.com/
 [7]: http://www.sinatrarb.com/
