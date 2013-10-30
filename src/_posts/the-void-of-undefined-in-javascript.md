@@ -52,6 +52,18 @@ ES5 improved this by making undefined immutable. If your JavaScript engine [supp
 
 Let's say someone is using your library within that function and you reference undefined. You get the string "oops". Oops indeed.
 
+Update: Axel Rauschmayer contacted me via Twitter over this section.
+
+> @shapeshed “someone is using your library within that function and you reference undefined.” Unproblematic (static vs. dynamic scoping).
+
+-- <cite>[@rauchma][5]</cite>
+
+Hopefully my response clears this up. It is not an issue within a function but it would be if undefined has been decalred globally. Run the jsfiddle examples to illustrate this.
+
+> @rauschma yes within a function http://jsfiddle.net/pv244/1/ . still an issue globally. http://jsfiddle.net/zwhn2/1/ . will clarify post. thanks!
+
+-- <cite>[@shapeshed][6]</cite>
+
 ## Void
 
 Void in JavaScript is one of Crockford's bad parts of Javascript 
@@ -93,3 +105,5 @@ Whether you chose to use `void 0` or not is up to you, but you should at least b
 [2]: http://es5.github.com/#x11.4.2
 [3]: http://javascriptweblog.wordpress.com/2010/08/16/understanding-undefined-and-preventing-referenceerrors/
 [4]: http://kangax.github.com/es5-compat-table/
+[5]: https://twitter.com/rauschma/status/395301555592634368
+[6]: https://twitter.com/shapeshed/status/395484711729889280
