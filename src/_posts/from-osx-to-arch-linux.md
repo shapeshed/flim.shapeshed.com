@@ -12,7 +12,7 @@
 
 ## Baby steps with OSX  
 
-Back in January 2006 I started freelancing and was mostly a front-end developer who knew how to make things work in IE. I purchased the original MacBook Pro and found Tiger to be a great Operating System for my needs. I plugged in [TextMate][1], [Adobe Creative Suite][2] and [MAMP][3] and my setup was done. I was able to turn up at a client and start working straightaway. After some pretty hefty setup costs my freelancing business had little or no overheads and the expensive hardware I purchased was completely rock solid. I really had the Mac experience - it was a joy to use and completely reliable.
+Back in January 2006 I left an agency after three years and started freelancing. I was mostly a front-end developer who knew how to make things work in IE. I purchased the original MacBook Pro and found Tiger to be a great Operating System for my needs. I plugged in [TextMate][1], [Adobe Creative Suite][2] and [MAMP][3] and my setup was done. I was able to turn up at a client and start working straightaway. After some pretty hefty setup costs my freelancing business had little or no overheads and the expensive hardware I purchased was completely rock solid. I really had the Mac experience - it was a joy to use and completely reliable.
 
 ## Moving down the stack - PHP
 
