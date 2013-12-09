@@ -2,8 +2,9 @@
   "layout": "post",
   "title": "From OSX to Arch Linux",
   "date": "Mon Dec 09 2013 12:55:45 GMT+0000 (GMT)",
-  "description": "I recently migrated from OSX to Arch Linux. Here is why Arch is a superior development platform for my needs",
+  "description": "Six months ago I migrated from OSX to Arch Linux. Here is why Arch is a superior development platform for my needs.",
   "tags": [
+    "OSX",
     "Linux",
     "Opinion"
   ]
@@ -25,7 +26,7 @@ I realised that developing your own software is often re-inventing the wheel and
 
 ## s/PHP/Rails
 
-I started to play with Rails as early as Rails 1 but by the time I created an application for a client it was Rails 2 I was working against. I started to become unhappy with the level of control I had with Media Temple and the Plesk server I was using and decided to migrate everything to a blank Ubuntu server on Slicehost (now part of Rackspace). Developing in Rails is straightforward but for deploying the application I needed to up my Linux skills. At this stage my Linux skills had become intermediate. 
+I started to play with Rails as early as Rails 1 but by the time I created an application for a client it was Rails 2 I was working against. I started to become unhappy with the level of control I had with Media Temple and the Plesk server I was using and decided to migrate everything to a blank Ubuntu server on Slicehost (now part of Rackspace). For deploying Rails applications I needed to up my Linux skills. At this stage my Linux skills had become intermediate. 
 
 Once I had created my first Rails application there was no way I was going back to PHP. Ruby is a beautiful language, perhaps still my favourite language to date. Rails taught me about TDD and how to be fully confident in deploying an application. 
 
@@ -53,19 +54,19 @@ I wanted a lightweight desktop so after discounting Gnome I tried [XFCE][15] and
 
 I discovered the [suckless][22] project and found the philosophy I had been looking for:
 
-    We are the home of quality software such as dwm, dmenu, st and plenty of other tools, with a focus on simplicity, clarity and frugality. Our philosophy is about keeping things simple, minimal and usable.
+> We are the home of quality software such as dwm, dmenu, st and plenty of other tools, with a focus on simplicity, clarity and frugality. Our philosophy is about keeping things simple, minimal and usable.
 
 I have been using dwm now for about six months and am far more productive than I was on OSX. I use [st][23] as my terminal, and [Chromium][24] as my browser. 
 
 My setup is very minimal and relies on git to manage source code and my dotfiles to manage configuration between a couple of Arch machines. 
 
-Looking back on my early career where I was a front-end developer my skill set has almost come full circle back to the browser. But now I carry strong experience on the server and a hunger to discover how things work. Rails abstracted too much for me - for much of the time I had no idea how a request went through the application and returned data. Because Arch forces you to understand the platform you are using, and more importantly to read the man pages it is easy to get out of trouble. Having said that I have had no issues. Not one. Arch packages are on the bleeding edge so I had expected that running on OSX hardware I might run into some trouble. Not at all.
+Looking back on my early career where I was a front-end developer my skill set has almost come full circle back to the browser. But now I carry strong experience on the server and a hunger to discover how things work. [Rails abstracted too much for me][27] - for much of the time I had no idea how a request went through the application and returned data. Because Arch forces you to understand the platform you are using, and more importantly to read the man pages it is easy to get out of trouble. Having said that I have had no issues. Not one. Arch packages are on the bleeding edge so I had expected that running on OSX hardware I might run into some trouble. Not at all.
 
 ## Thoughts on OSX
 
 As a mostly JavaScript developer and in the age of the browser OSX has become too heavyweight for me. Some of the decisions of the most recent release Mavericks are baffling. Why do you want a native maps application when the browser does it just as well? I'm not really keen on pushing everything through the App Store, limiting kernel extensions and just generally tightening the walled garden around everything. I prefer openess over drop shadows, performance over animations and being responsible over hand holding. 
 
-I'm a developer who develops software that gets deployed on the Linux platform so it makes sense to develop on Linux. That decision has paid dividends so many times. It is easy to install any software I need and projects like [docker][25] make it easy to develop on exactly the environment I will be deploying to. 
+I am a developer who develops software that gets deployed on the Linux platform so it makes sense to develop on Linux. That decision has paid dividends so many times. It is easy to install any software I need and projects like [docker][25] make it easy to develop on exactly the environment I will be deploying to. 
 
 I'm not suggesting that Linux, Arch or dwm are right for everyone. In fact they are tailored almost perfectly to what I'm looking for - an open, minimal operating system. My career is probably a driver for this. I started at the top of the stack migrated all the way down to the metal and bubbled back up to the top. As such I want to know how everything works and to keep software as simple as possible. Arch and dwm is exactly what I was looking for. 
 
@@ -95,3 +96,4 @@ I'm not suggesting that Linux, Arch or dwm are right for everyone. In fact they 
 [24]: http://www.chromium.org/Home
 [25]: http://www.docker.io/
 [26]: https://www.mediatemple.net
+[27]: http://shapeshed.com/all-magic-comes-with-a-price/
