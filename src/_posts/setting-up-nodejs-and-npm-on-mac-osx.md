@@ -40,39 +40,19 @@ At this point it is probably a good idea to consult the excellent [Node.js docum
 
 ## Installing npm
 
-Node.js is pretty low level so lots of people have created modules for Node. Thankfully there is already a package manager for Node in [npm][5] to help you manage these.
+npm is Node's package manager. It is now installed automatically with Node.js so there is no need to do a separate installation.
 
-For [various reasons][10] the package was recently removed from Homebrew so you'll need to install it manually.
+If you are developing anything in Node.js there is a good chance there is already a library to help you. It might be a module to connect to MySQL, a templating library or a utility library.
 
-    curl https://npmjs.org/install.sh | sh
+You can search for modules like this
 
-If executing scripts from curl makes you nervous you can download the source and then install:
+    npm search [searchterm]
 
-    git clone http://github.com/isaacs/npm.git
-    cd npm
-    sudo make install
+So to search for underscore do this
 
-The install will spit out some advice about paths. I found on my setup everything worked other than having to set NODE\_PATH. 
+    npm search underscore
 
-NODE\_PATH tells Node.js where to look for modules. This means you can do things like 
-
-    var client = require 'redis-client'
-
-instead of specifying the full path.
-
-To make sure my shell knows where to find Node.js modules I added 
-
-    export NODE_PATH="/usr/local/lib/node"
-
-to my .bashrc file. As some modules have executables you will also need to add /usr/local/share/npm/bin to your PATH. Here's how mine looks
-
-    export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
-
-My full .bashrc file is [available here][11] if you need an example. Make sure you reload your shell with 
-
-    source ~/.bashrc
-
-so the changes are applied.
+There is also a [website for npm][14] where you can search for packages.
 
 ## Installing modules
 
@@ -97,3 +77,4 @@ That's it - go create!
 [11]: https://github.com/shapeshed/dotfiles/blob/master/bashrc
 [12]: http://nodejs.org/download
 [13]: http://shapeshed.com/compiling-nodejs-from-source-on-ubuntu-10-04/
+[14]: https://npmjs.org/
