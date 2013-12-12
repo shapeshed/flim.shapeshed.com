@@ -44,7 +44,7 @@ This week the business is holding an internal hack day and whilst the spirit of 
 
 > We want to create something that gets the widest possible audience.
 
-So in one day it is inferred is that something with marketing relevance for the business need to be created.
+So in one day it is inferred is that something with marketing relevance for the business needs to be created.
 
 ## Hack days and corporations
 
