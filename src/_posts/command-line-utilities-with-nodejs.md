@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Command Line Utilities with Node.js",
   "date": "Thu Jan 02 2014 17:00:57 GMT+0000 (GMT)",
-  "description": "Node.js is a great platform for creating small command line utilities, especially where IO occurs",
+  "description": "Node.js is a great platform for creating small command line utilities, especially where I/O occurs.",
   "tags": [
     "Node.js",
     "JavaScript"
@@ -11,7 +11,7 @@
 
 ## Write command line utilities with Node.js
 
-An underused feature of Node.js is the ability to write command-line scripts. This gives you the full power of Node.js as a networking programming platform and the brilliance of npm to allow you to share your scripts. I recently wrote  [weatherme][2] a command line app to display data from forecast.io. Compared to writing bash scripts it was a really pleasant experience and I think people should be using Node.js for creating CLI tools more, especially where IO is involved.
+An underused feature of Node.js is the ability to write command-line scripts. This gives you the full power of Node.js as a network programming platform and the brilliance of npm to allow you to share your scripts. I recently wrote  [weatherme][2] a command line app to display data from forecast.io. Compared to writing bash scripts it was a really pleasant experience and I think people should be using Node.js for creating CLI tools more, especially where I/O is involved.
 
 ## The basics
 
@@ -106,7 +106,7 @@ After a while you'll find yourself repeating a lot of code. The Node.js communit
 
 ## Conclusion
 
-Particularly if you are on a UNIX type system Node.js offers an excellent platform for creating CLI tools. Especially if you are doing any kind of IO Node is a great choice. The fact that it plays nice with UNIX pipes and signals means that it can exist quite happily along side other tools. Node can also spawn [child processes][11] so you can easily shell out to any other tool on the system making it really flexible.
+Particularly if you are on a UNIX type system Node.js offers an excellent platform for creating CLI tools. Especially if you are doing any kind of I/O Node is a great choice. The fact that it plays nice with UNIX pipes and signals means that it can exist quite happily along side other tools. Node can also spawn [child processes][11] so you can easily shell out to any other tool on the system making it really flexible.
 
 In short I think people should be using Node.js more for CLI tools and using npm to share them!
 
