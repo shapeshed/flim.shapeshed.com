@@ -15,7 +15,7 @@
     "test": "make build"
   },
   "dependencies": {
-    "flim": "0.0.1",
+    "flim": "0.0.2",
     "cssmin": "0.3.2",
     "uglify-js": "1.3.4",
     "http-server": "0.5.3"

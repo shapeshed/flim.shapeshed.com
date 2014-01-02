@@ -2,6 +2,11 @@
 html
   head
     title #{title}
+
+    if (locals.description)
+      meta(description="#{locals.description}")
+    if (locals.keywords)
+      meta(keywords="#{locals.keywords}")
     meta(charset="utf-8") 
     meta(name="author", content="George Ornbo")
     meta(name="viewport", content="width=device-width,initial-scale=1")
