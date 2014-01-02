@@ -76,7 +76,7 @@ Now you can do this and you should see foo printed
 
     echo 'foo' | ./yourscript
 
-This is really powerful as it opens up a wealth of other tools and to your Node.js script. You might want to pipe data from a system command, a Ruby script, whatever.
+This is really powerful as it opens up a wealth of other tools to your Node.js script. You might want to pipe data from a system command, a Ruby script, whatever.
 
 ## UNIX signals
 
