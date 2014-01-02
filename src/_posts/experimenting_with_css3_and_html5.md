@@ -30,7 +30,7 @@ I've been using elements of CSS3 for some time but this was a chance to really l
 
 ## Jekyll
 
-The engine behind the site is [Jekyll][5], a simple static site generator. It parses Markdown or Textile documents and outputs a static site. I found it easy to learn and feature rich enough for this project.
+The engine behind the site is [Jekyll][9], a simple static site generator. It parses Markdown or Textile documents and outputs a static site. I found it easy to learn and feature rich enough for this project.
 
 ## Open source
 
@@ -46,3 +46,4 @@ You can view [the site here][6] and see what's under the hood at [the Github rep
  [6]: http://github.com/mojombo/jekyll/tree/master
  [7]: http://shapeshed.github.com/
  [8]: http://github.com/shapeshed/shapeshed.github.com/
+ [9]: https://github.com/jekyll/jekyll
