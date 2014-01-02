@@ -5,11 +5,17 @@ html
 
     if (locals.description)
       meta(description="#{locals.description}")
+      meta(name="twitter:description", value="#{locals.description}")
     if (locals.keywords)
       meta(keywords="#{locals.keywords}")
     meta(charset="utf-8") 
     meta(name="author", content="George Ornbo")
     meta(name="viewport", content="width=device-width,initial-scale=1")
+    meta(name="twitter:card", value="summary")
+    meta(name="twitter:title", value="#{title}")
+    meta(name="twitter:site", value="@shapeshed")
+    meta(name="twitter:creator", value="@shapeshed")
+    meta(name="twitter:domain", value="shapeshed.com")
     link(rel="stylesheet", href="/stylesheets/screen.css")
     link(href="/atom.xml", rel="alternate", title="Shape Shed", type="application/atom+xml")
   body
