@@ -34,7 +34,7 @@ Now you can run it and you should see 'hello world' printed.
 
 As you get beyond basic scripts you'll want to pass arguments into the script. The arguments passed to a script are available as `process.argv`.
 
-If you pass arguments to the simple example above and add console.log(process.argv) you'll see the arguments are available s an array. For example if you run
+If you pass arguments to the simple example above and add `console.log(process.argv)` you'll see the arguments are available as an array. For example if you run
 
     ./yourscript -g -f 
 
