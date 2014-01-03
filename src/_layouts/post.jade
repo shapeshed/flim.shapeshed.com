@@ -10,10 +10,3 @@ block content
       !{post.markup}
     p Have an update or suggestion for this article? 
       a(href="https://github.com/shapeshed/shapeshed.com/blob/master/src/_posts/#{post.slug}.md") You can edit it here and send me a pull request.
-    h2 Tags
-    ul
-      each tag in post.tags
-        li
-          a(href="/tags/#{tag.replace(/\s+/g, '-').replace(/\.+/g, '-').toLowerCase()}") 
-            =tag
-    h2 About the author
