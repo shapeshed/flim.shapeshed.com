@@ -3,10 +3,11 @@ extends layout
 block content
   article
     p 
-      time(datetime="#{post.date.toISOString()}", data-updated="true")= post.date.toLocaleDateString()
-    h1 #{post.title}
-    h2.dropcap #{post.description}
-    !{post.markup}
+      time(datetime="#{post.date.toISOString()}", data-updated="true", itemprop="datePublished")= post.date.toLocaleDateString()
+    h1(itemprop="headline name") #{post.title}
+    div(itemprop="articleBody")
+      h2.dropcap(itemprop="description") #{post.description}
+      !{post.markup}
     p Have an update or suggestion for this article? 
       a(href="https://github.com/shapeshed/shapeshed.com/blob/master/src/_posts/#{post.slug}.md") You can edit it here and send me a pull request.
     h2 Tags
