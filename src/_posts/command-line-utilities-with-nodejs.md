@@ -51,9 +51,9 @@ To remove 'node' and the path to your script it is common to do something like t
 Node.js plays very nice with UNIX but as a developer you too need to be aware of exit codes. If a script exits without an error the exit code should be 0. If it exits with an error it should 1. A crude example follows.
 
     if (err) {
-      process.exit(0);
-    } else {
       process.exit(1);
+    } else {
+      process.exit(0);
     }
 
 ## Piping data
@@ -102,7 +102,7 @@ Signals are another really powerful feature that allow other parts of a UNIX eco
 
 ## Some useful libraries
 
-After a while you'll find yourself repeating a lot of code. The Node.js community has already done a lot of work for you here. The two libaries I would recommend for writing command line scripts are [commander][7] and [optimist][8]. Both of them perform very similar things with commander having a few more features and offering a slicker api. Personally I really like optimist as I like my tools small and compact but both are really good. Other libraries you might want to look at include [cli][9] and [noopt][10].
+After a while you'll find yourself repeating a lot of code. The Node.js community has already done a lot of work for you here. The two libaries I would recommend for writing command line scripts are [commander][7] and [optimist][8]. Both of them perform very similar things with commander having a few more features and offering a slicker api. Personally I really like optimist as I like my tools small and compact but both are really good. Other libraries you might want to look at include [cli][9] and [nopt][10].
 
 ## Conclusion
 
