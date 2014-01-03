@@ -2,7 +2,7 @@ extends layout
 
 block content
   article
-    p 
+    p.date 
       time(datetime="#{post.date.toISOString()}", data-updated="true", itemprop="datePublished")= post.date.toLocaleDateString()
     h1(itemprop="headline name") #{post.title}
     div(itemprop="articleBody")

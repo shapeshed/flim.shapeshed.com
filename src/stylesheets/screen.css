@@ -10,6 +10,36 @@
   http://viljamis.com/blog/2012/typography/
 --------------------------------------------- */
 
+@font-face {
+  font-family: 'PTSerifCustom';
+  src: url('../font/PTF55F_W.eot');
+  src: url('../font/PTF55F_W.eot?#iefix') format('embedded-opentype'),
+  url('../font/PTF55F_W.woff') format('woff'),
+  url('../font/PTF55F_W.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSerifCustom';
+  src: url('../font/PTF56F_W.eot');
+  src: url('../font/PTF56F_W.eot?#iefix') format('embedded-opentype'),
+  url('../font/PTF56F_W.woff') format('woff'),
+  url('../font/PTF56F_W.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PTSerifCustom';
+  src: url('../font/PTF75F_W.eot');
+  src: url('../font/PTF75F_W.eot?#iefix') format('embedded-opentype'),
+  url('../font/PTF75F_W.woff') format('woff'),
+  url('../font/PTF75F_W.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,6 +79,7 @@ html, body {
   }
 
 html {
+  border-top: 6px solid rgb(0,0,0);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background: rgb(255,255,255);
@@ -101,7 +132,7 @@ img::-moz-selection {
 --------------------------------------------- */
 
 body {
-  font: 75%/1.5em Georgia, serif;
+  font: 75%/1.5em "PTSerifCustom", Georgia, serif;
   max-width: 40.49984em;
   color: rgb(0,0,0);
   margin: 0 auto;
@@ -182,9 +213,11 @@ ol {
   }
 
 h1 {
-  margin: .97em 0 .5em;
+  margin: 1em 0 0.46981em;
+  font: italic 2em/1.125em "Hoefler Text", Baskerville, "PTSerifCustom", Times, "Times New Roman", serif;
+  /*margin: .97em 0 .5em;
   line-height: 1.125em;
-  font-size: 2em;
+  font-size: 2em;*/
   }
 
 .ie h1 {
@@ -229,8 +262,7 @@ pre,code {
 
 pre {
   color: rgb(90,90,90);
-  padding: 1.5em 1em;
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
   line-height: 1em;
   white-space: pre;
   white-space: pre-wrap;
@@ -403,3 +435,7 @@ sup a {
     }
 
   }
+
+.date {
+  color: #999;
+}
