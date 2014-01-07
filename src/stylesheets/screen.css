@@ -258,6 +258,7 @@ h6 {
 pre,code {
   font: .9375em/1.26562em monospace, monospace;
   -webkit-font-smoothing: subpixel-antialiased;
+  overflow: auto;
   }
 
 pre {
@@ -265,8 +266,6 @@ pre {
   margin-bottom: 1.5em;
   line-height: 1em;
   white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
   }
 
 img {
