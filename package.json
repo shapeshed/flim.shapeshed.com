@@ -1,6 +1,10 @@
 {
   "name": "shapeshed.com",
   "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
+  "contrbutors": [
+    "Steffan Williams <steffjw@gmail.com> (http://steff.me/)",
+    "Zev Averbach <zev@avtranscription.com> (https://avtranscription.com)"
+  ],
   "private": true,
   "version": "0.0.0",
   "description": "It is a blog",
