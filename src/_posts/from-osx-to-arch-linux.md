@@ -40,7 +40,7 @@ OSX offered tools like Vagrant that really helped to create an image that could 
 
 ## JavaScript and the browser
 
-For about the last 18 months I have been writing JavaScript almost every day. I'm using Node.js for the server and [Backbone][11] and [Marionette.js][10] for most front end work. For the majority of the time I'm working in vim, a browser and the browser console. During this time I started to feel that OSX is a very heavyweight operating system for what I need. I'm now a heavy terminal user. I read my mail through [mutt][12], and use terminal based IRC and Campfire clients. Partly because I believe in the web as the platform I started to stop using native clients for services like Twitter. I started to learn browser shortcuts for these sites and installed the excellent [Vimium Chrome][13] extension.
+For about the last 18 months I have been writing JavaScript almost every day. I'm using Node.js for the server and [Backbone][10] and [Marionette.js][11] for most front end work. For the majority of the time I'm working in vim, a browser and the browser console. During this time I started to feel that OSX is a very heavyweight operating system for what I need. I'm now a heavy terminal user. I read my mail through [mutt][12], and use terminal based IRC and Campfire clients. Partly because I believe in the web as the platform I started to stop using native clients for services like Twitter. I started to learn browser shortcuts for these sites and installed the excellent [Vimium Chrome][13] extension.
 
 Simply I wasn't really using very much of OSX any more. I started to loathe the weight of applications like iTunes and my 2009 iMac (with RAM maxed out) was starting to groan. 
 
