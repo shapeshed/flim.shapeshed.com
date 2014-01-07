@@ -48,7 +48,7 @@ To remove 'node' and the path to your script it is common to do something like t
 
 ## Exit codes
 
-Node.js plays very nice with UNIX but as a developer you too need to be aware of exit codes. If a script exits without an error the exit code should be 0. If it exits with an error it should 1. A crude example follows.
+Node.js plays very nice with UNIX but as a developer you too need to be aware of exit codes. If a script exits without an error the exit code should be 0. If it exits with an error it should be 1 or higher. A crude example follows.
 
     if (err) {
       process.exit(1);
