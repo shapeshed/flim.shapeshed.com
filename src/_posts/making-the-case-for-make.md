@@ -80,7 +80,7 @@ Assuming you've concatenated your JavaScript files in the same way the css examp
 
 UNIX encourages small, distinct tools. A Makefile allows you to pick the best tool for the job. If it runs on UNIX it runs on Make. There is no need to create a wrapper or integrate with a build framework. In this sense it allows you to choose the best tool for the job and you can throw out the idea that you have to write *everything* in JavaScript.
 
-It is fast. In all tests I've run locally using system commmands via a Makefile is always faster than using a build framework.
+It is fast. In all tests I've run locally using system commands via a Makefile is always faster than using a build framework.
 
 It is simple. If you can complete a task in five lines of code there is less to go wrong and it is easier to understand.
 
