@@ -1,6 +1,6 @@
 {
   "layout": "post",
-  "title": "Making a case for make",
+  "title": "Making the case for make",
   "date": "Wed Jan 08 2014 16:42:56 GMT+0000 (GMT)",
   "description": "Make gives you access to many tiny, powerful UNIX tools and shouldn't be overlooked as a build tool.",
   "tags": [
