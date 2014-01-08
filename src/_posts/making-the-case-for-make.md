@@ -69,12 +69,12 @@ This will exclude any folder names prefixed with \_.
 
 ## Uglifying JavaScript
 
-Assuming you've concatenated your JavaScript files in the same way the css example did it becomes a one line command. In this example I'm using the [uglifyjs][6] node module.
+Foo. Assuming you've concatenated your JavaScript files in the same way the css example did it becomes a one line command. In this example I'm using the [uglifyjs][6] node module.
 
     build: uglifyjs 
 
     uglifyjs:
-      @./node_modules/uglify-js/bin/uglifyjs ./build/js/main.js.tmp > ./build/js/main.js && rm ./build/js/application.js.tmp
+      @./node_modules/uglify-js/bin/uglifyjs ./build/js/main.js.tmp > ./build/js/main.js && rm ./build/js/main.js.tmp
 
 ## Strengths
 
