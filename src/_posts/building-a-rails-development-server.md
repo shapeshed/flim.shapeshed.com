@@ -18,7 +18,7 @@ From having the ability to serve Rails sites only from Apache and Passenger we h
 
 ![Nginx Proxy Diagram][1]
 
-We've moved Apache to port 81 so if a site needs to be tested on that setup we can still do it. Otherwise we can proxy from nginx directly to Apache. The real flexibility comes from the server we use to serve the Rails app. We deploy by choice on [Thin][6] or [Unicorn][7] so we can replicate this stack easily. We are looking at [Goliath][8] at the moment so we could easily add this in beneath Nginx. We are playing with some other technologies like [node.js][9] too. With Nginx we can support this too. 
+We've moved Apache to port 81 so if a site needs to be tested on that setup we can still do it. Otherwise we can proxy from nginx directly to Apache. The real flexibility comes from the server we use to serve the Rails app. We deploy by choice on [Thin][6] or [Unicorn][7] so we can replicate this stack easily. We are looking at [Goliath][8] at the moment so we could easily add this in beneath Nginx. We are playing with some other technologies like [Node.js][9] too. With Nginx we can support this too. 
 
 ## Getting nginx
 

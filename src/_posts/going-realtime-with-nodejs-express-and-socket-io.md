@@ -1,8 +1,8 @@
 {
   "layout": "post",
-  "title": "Going realtime with node.js, Express and socket.io",
+  "title": "Going realtime with Node.js, Express and socket.io",
   "date": "Mon Jul 18 2011 00:00:00 GMT+0100 (BST)",
-  "description": "A simple realtime counter in node.js",
+  "description": "A simple realtime counter in Node.js",
   "tags": [
     "Node.js",
     "JavaScript"
@@ -11,7 +11,7 @@
 
 ## Counting is fun!
 
-This is a walkthrough on how to create a simple realtime counter of visitors to a page using [node.js][1], [socket.io][3] and [express][4]. This example is very simple but could easily be extended to a range of applications.
+This is a walkthrough on how to create a simple realtime counter of visitors to a page using [Node.js][1], [socket.io][3] and [express][4]. This example is very simple but could easily be extended to a range of applications.
 
 ## Just show me the app
 
@@ -21,7 +21,7 @@ This is a walkthrough on how to create a simple realtime counter of visitors to 
 
 ## Pulling the pieces together
 
-[Express][4] is a great web framework for creating sites in node.js. I've [written before][5] about creating a basic site. This time we are going to use a couple more libraries to add realtime communication to the application. 
+[Express][4] is a great web framework for creating sites in Node.js. I've [written before][5] about creating a basic site. This time we are going to use a couple more libraries to add realtime communication to the application. 
 
 [socket.io][3] is an amazing library that takes the pain out of websockets and provides a reliable fallback depending on browser capabilites. Here's a simple example from the socket.io site. 
 

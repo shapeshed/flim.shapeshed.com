@@ -12,7 +12,7 @@
 
 ## Overview
 
-Whilst working on a [node.js][1] project I realised that using various tools I had extracted the entire design layer of the site. 
+Whilst working on a [Node.js][1] project I realised that using various tools I had extracted the entire design layer of the site. 
 
 ## CSS
 
@@ -50,7 +50,7 @@ This is particularly good as if and when the spec is formalised and a universal 
 
 ## HTML
 
-HTML also has a number of templating languages that abstract writing raw HTML. The advantages are mainly syntax checking - the tools won't complile if you have an error. If you care about writing valid HTML this ia great idea. For Ruby my tool of choice is [HAML][6]. In node.js a dialect of HAML is available in [jade][7]. Here's an example of jade.
+HTML also has a number of templating languages that abstract writing raw HTML. The advantages are mainly syntax checking - the tools won't complile if you have an error. If you care about writing valid HTML this ia great idea. For Ruby my tool of choice is [HAML][6]. In Node.js a dialect of HAML is available in [jade][7]. Here's an example of jade.
 
     !!! 5
     html(lang="en")
@@ -65,7 +65,7 @@ Particularly when you are interacting with a database and outputting data to vie
 
 ## JavaScript
 
-The final piece of the puzzle is JavaScript. JavaScript is a hated and loved language with a great object model at heart. I've been writing native JavaScript for quite a while now so I was interested to find the [CoffeeScript][8] project. In the last year JavaScript has become trendy again with node.js and many developers coming from Ruby found JavaScript's syntax ugly. CoffeeScript abstracts JavaScript and presents JavaScript in a more Ruby like syntax. In compiling to JavaScript it also runs the code through [JSLint][9]. I can take or leave the syntax improvements but automatically running the code through a tool that empasises quality is a great sell for me. Here's are the examples from the documentation:
+The final piece of the puzzle is JavaScript. JavaScript is a hated and loved language with a great object model at heart. I've been writing native JavaScript for quite a while now so I was interested to find the [CoffeeScript][8] project. In the last year JavaScript has become trendy again with Node.js and many developers coming from Ruby found JavaScript's syntax ugly. CoffeeScript abstracts JavaScript and presents JavaScript in a more Ruby like syntax. In compiling to JavaScript it also runs the code through [JSLint][9]. I can take or leave the syntax improvements but automatically running the code through a tool that empasises quality is a great sell for me. Here's are the examples from the documentation:
 
     song = ["do", "re", "mi", "fa", "so"]
 

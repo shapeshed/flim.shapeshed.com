@@ -1,6 +1,6 @@
 {
   "layout": "post",
-  "title": "Cloud Foundry - a Ruby and node.js developer's perspective",
+  "title": "Cloud Foundry - a Ruby and Node.js developer's perspective",
   "date": "Fri Apr 15 2011 00:00:00 GMT+0100 (BST)",
   "description": "This week VMware announced Cloud Foundry, their open source PaaS offering. Here's my take.",
   "tags": [
@@ -19,17 +19,17 @@
 
 ## Why PaaS?
 
-Developers don't want to be Sys Admins. Especially in small businesses developers take on a lot - some or all of business analysis / requirements gathering, server admin, development, testing, design, client management. The list goes on. So the emergence of services like Heroku for [Ruby][18] and Nodester for [node.js][19] is very attractive. Developers can remove one thing from the list of things that they need to be responsible for. It is an easy sell to the management layer too - it is cheaper in terms of man hours, with (almost) no maintenance. 
+Developers don't want to be Sys Admins. Especially in small businesses developers take on a lot - some or all of business analysis / requirements gathering, server admin, development, testing, design, client management. The list goes on. So the emergence of services like Heroku for [Ruby][18] and Nodester for [Node.js][19] is very attractive. Developers can remove one thing from the list of things that they need to be responsible for. It is an easy sell to the management layer too - it is cheaper in terms of man hours, with (almost) no maintenance. 
 
-The providers doing well in the market are the ones that realise that developers have the keys to the choices that get made. Heroku has built a kick-ass platform with a super slick API. Frankly it is a joy to use. Nodester emerged from nowhere as an open-source weekend project and for me is beating players like Joyent in their node.js offering. 
+The providers doing well in the market are the ones that realise that developers have the keys to the choices that get made. Heroku has built a kick-ass platform with a super slick API. Frankly it is a joy to use. Nodester emerged from nowhere as an open-source weekend project and for me is beating players like Joyent in their Node.js offering. 
 
 ## One Paas to rule them all?
 
-VMware have put considerable effort into building a PaaS to accommodate three technologies - Java, Ruby and node.js. They must be applauded for open-sourcing the project and making it available on [GitHub][8]. There are a considerable amount of man hours there and a significant investment from VMware. Thank you. 
+VMware have put considerable effort into building a PaaS to accommodate three technologies - Java, Ruby and Node.js. They must be applauded for open-sourcing the project and making it available on [GitHub][8]. There are a considerable amount of man hours there and a significant investment from VMware. Thank you. 
 
 ## Taking it for a spin
 
-So I took it for a spin firing up a [VirtualBox][9] [Ubuntu 10.04.2 LTS][10] VM. Installation was simple enough following the [README][11].  I created the SSH tunnel as advised and within about half an hour had built a private cloud capable of running Java, Ruby and node.js apps, with support for MySQL, Redis and MongoDB. Impressive. 
+So I took it for a spin firing up a [VirtualBox][9] [Ubuntu 10.04.2 LTS][10] VM. Installation was simple enough following the [README][11].  I created the SSH tunnel as advised and within about half an hour had built a private cloud capable of running Java, Ruby and Node.js apps, with support for MySQL, Redis and MongoDB. Impressive. 
 
 The VMware team have thought hard about the API. If you are a RubyGems user you can check it out by installing the vmc rubygem and then running help
 
@@ -44,7 +44,7 @@ Err.. that's it. Amazing!
 
 ## Testing deployment on my cloud
 
-Then I set about deploying a node.js app. It was a simple express based node.js application with express, jade and stylus as dependencies. So let's give it a go
+Then I set about deploying a Node.js app. It was a simple express based Node.js application with express, jade and stylus as dependencies. So let's give it a go
 
     vmc push myapp
     Would you like to deploy from the current directory? [Yn]: y
@@ -87,13 +87,13 @@ I love the fact that Cloud Foundry is open source and created using Ruby. The Ru
 
 ## What could be improved
 
-It is a real shame that VMware didn't go with [git][14] based deployment. Both the Ruby/Rails and node.js communities use git heavily and are used to git based PaaS services. I'm not sure why this design decision was made - perhaps the old skool Java heads at VMware won out. It would be great to see git deployment added to the platform. Currently there is no versioning on the platform - it would be a quick feature win to leverage the power of git to add this. 
+It is a real shame that VMware didn't go with [git][14] based deployment. Both the Ruby/Rails and Node.js communities use git heavily and are used to git based PaaS services. I'm not sure why this design decision was made - perhaps the old skool Java heads at VMware won out. It would be great to see git deployment added to the platform. Currently there is no versioning on the platform - it would be a quick feature win to leverage the power of git to add this. 
 
 That said with the project being open source the developer community can easily fork it and enhance the platform. The fact that the project is open source is massive.
 
 ## Will I use it?
 
-Maybe. Currently I'm happy with the PaaS providers I'm using - [Heroku][4] and [Nodester][7]. I feel both are doing a great job. Heroku is closed source, whilst Nodester is open-source. I have the option to host a Nodester private cloud somewhere but Cloud Foundry is the only solution to offer both Ruby and node.js. I like that. Currently I mostly use PaaS providers for quickly prototyping an idea and getting it out there. I could see a Cloud Foundry private cloud working well for this. 
+Maybe. Currently I'm happy with the PaaS providers I'm using - [Heroku][4] and [Nodester][7]. I feel both are doing a great job. Heroku is closed source, whilst Nodester is open-source. I have the option to host a Nodester private cloud somewhere but Cloud Foundry is the only solution to offer both Ruby and Node.js. I like that. Currently I mostly use PaaS providers for quickly prototyping an idea and getting it out there. I could see a Cloud Foundry private cloud working well for this. 
 
 The API is a big thing for me and I think VMware has done a great job here. Where Heroku has led others have followed and that's great news for developers. 
 

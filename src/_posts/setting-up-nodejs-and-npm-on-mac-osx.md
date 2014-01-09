@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Setting up Node.js and npm on Mac OSX",
   "date": "Mon Aug 30 2010 00:00:00 GMT+0100 (BST)",
-  "description": "Node.js is gaining a lot of speed and is an exciting new development framework. Here's a quick overview of how to get node.js working on OSX along with npm, the package manager for node.",
+  "description": "Node.js is gaining a lot of speed and is an exciting new development framework. Here's a quick overview of how to get Node.js working on OSX along with npm, the package manager for node.",
   "tags": [
     "Node.js",
     "JavaScript"

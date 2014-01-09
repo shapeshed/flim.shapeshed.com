@@ -1,8 +1,8 @@
 {
   "layout": "post",
-  "title": "Creating a basic site with node.js and Express",
+  "title": "Creating a basic site with Node.js and Express",
   "date": "Mon Apr 18 2011 00:00:00 GMT+0100 (BST)",
-  "description": "A walkthrough on how to create and deploy a basic site with node.js and the Express framework",
+  "description": "A walkthrough on how to create and deploy a basic site with Node.js and the Express framework",
   "tags": [
     "Node.js",
     "JavaScript"
@@ -11,7 +11,7 @@
 
 ## What we are going to do
 
-This walkthrough will go over setting up a basic site using [node.js][4] and Express. The walkthrough is aimed at beginners exploring node.js as I've had many questions from friends and colleagues about creating and deploying node apps. If you are not a beginner the article probably won't be of much use to you. We are going to use [express][1], an excellent web framework for node created by [TJ Holowaychuk][2] who seems to be pumping out node.js libraries like he was ten men.
+This walkthrough will go over setting up a basic site using [Node.js][4] and Express. The walkthrough is aimed at beginners exploring Node.js as I've had many questions from friends and colleagues about creating and deploying node apps. If you are not a beginner the article probably won't be of much use to you. We are going to use [express][1], an excellent web framework for node created by [TJ Holowaychuk][2] who seems to be pumping out Node.js libraries like he was ten men.
 
 Here is [the site][13] we are going to create. You might also want to grab the [source code][18].
 
@@ -19,7 +19,7 @@ Here is [the site][13] we are going to create. You might also want to grab the [
 
 ## Setup
 
-First we need to setup our development environment. If you are on OSX I've [covered how to setup node.js and npm on OSX][5] in a previous article. If you haven't got everything installed follow that article. 
+First we need to setup our development environment. If you are on OSX I've [covered how to setup Node.js and npm on OSX][5] in a previous article. If you haven't got everything installed follow that article. 
 
 If you are on Linux there are plenty of [articles on Google][6].
 
@@ -27,7 +27,7 @@ For Windows users there are also [resources on Google][7] but it is a bit more t
 
 ## Prerequisites
 
-If everything has installed ok you should now have node.js and npm running on your machine. At the terminal type `node -v` and `npm -v` and you should see something like:
+If everything has installed ok you should now have Node.js and npm running on your machine. At the terminal type `node -v` and `npm -v` and you should see something like:
 
     node -v
     v0.8.21
@@ -87,15 +87,15 @@ You should see `Express server listening on port 3000` and if you open [http://1
 
 ## Using Git
 
-[Git][8] is a version control system that is used heavily in the node.js ecosystem, particulary with [Github][9]. If you aren't familiar with Git [Scott Chacon][12] is your go-to man. He's written extensively and eloquently on Git for beginners and experts. Checkout [Gitcasts][10] for if you are a beginner and [ProGit][11] for more advanced stuff. We are going to use git to version our site and publish it so let's set up our repo now. If your Express server is still running hit CTRL + C to stop it. 
+[Git][8] is a version control system that is used heavily in the Node.js ecosystem, particulary with [Github][9]. If you aren't familiar with Git [Scott Chacon][12] is your go-to man. He's written extensively and eloquently on Git for beginners and experts. Checkout [Gitcasts][10] for if you are a beginner and [ProGit][11] for more advanced stuff. We are going to use git to version our site and publish it so let's set up our repo now. If your Express server is still running hit CTRL + C to stop it. 
 
     git init
     git add .
     git commit -m 'initial commit'
 
-## Developing node.js sites
+## Developing Node.js sites
 
-Normally when you develop a node.js site you'll need ot restart your application each time you make a change. Thankfully our home-grown British JavaScript genius [Remy Sharp][24] has solved this problem with [nodemon][25]. Nodemon will reload your application each time it changes so you don't need to restart it. If you have used [Shotgun][26] for Ruby with [Sinatra][36] it is similar to that. To install run
+Normally when you develop a Node.js site you'll need ot restart your application each time you make a change. Thankfully our home-grown British JavaScript genius [Remy Sharp][24] has solved this problem with [nodemon][25]. Nodemon will reload your application each time it changes so you don't need to restart it. If you have used [Shotgun][26] for Ruby with [Sinatra][36] it is similar to that. To install run
 
     npm install -g nodemon
 
@@ -188,7 +188,7 @@ See the [Express documentation][37] for more.
 
 ## Publishing your site
 
-We've now developed a basic node.js site using express and we want to host it somewhere. Publishing the site to [Heroku][14] is free and you can be up and running in no time. You can sign up for an account at [Heroku][14] for free and then install the [toolbelt][40].
+We've now developed a basic Node.js site using express and we want to host it somewhere. Publishing the site to [Heroku][14] is free and you can be up and running in no time. You can sign up for an account at [Heroku][14] for free and then install the [toolbelt][40].
 
 To make your example node site work with Heroku you must create a file called Procfile in the root of the project. Add the following.
 
@@ -209,25 +209,25 @@ Then you can use the command line tools to create a site on Heroku and publish i
 
 Easy!
 
-Some other node.js hosting providers include [nodejitsu][32], [Joyent][33], [Cloud Foundry][34] and [Duostack][35].
+Some other Node.js hosting providers include [nodejitsu][32], [Joyent][33], [Cloud Foundry][34] and [Duostack][35].
 
 ## Conclusion
 
-This article has showed how to create a very basic site using node.js and Express. It has introduced a number of things from the node.js ecosystem and showed you how to deploy your app to Nodester.
+This article has showed how to create a very basic site using Node.js and Express. It has introduced a number of things from the Node.js ecosystem and showed you how to deploy your app to Nodester.
 
-The strengths of node.js as a technology are not so much in building static websites like this. I encourage you to explore some of the node.js libraries to see what it can do. Particularly for real-time applications node.js is extremely exciting and I think we'll see some great apps built on node.js. Try starting with [socket.io][22] for a taste of what to expect.
+The strengths of Node.js as a technology are not so much in building static websites like this. I encourage you to explore some of the Node.js libraries to see what it can do. Particularly for real-time applications Node.js is extremely exciting and I think we'll see some great apps built on Node.js. Try starting with [socket.io][22] for a taste of what to expect.
 
 If you find any inaccuracies in the post [send me an email][23] and I'll update the post.
 
 ## Further reading
 
-* [node.js][4]
+* [Node.js][4]
 * [express - node web framework][1]
 * [npm - node package manager][3]
-* [jade - node.js templating language][19]
-* [stylus - node.js css framework][20]
-* [Setting up node.js and npm on Mac OSX][5]
-* [Nodester - Open Source Hosting for node.js][13]
+* [jade - Node.js templating language][19]
+* [stylus - Node.js css framework][20]
+* [Setting up Node.js and npm on Mac OSX][5]
+* [Nodester - Open Source Hosting for Node.js][13]
 * [Source code for this article][18]
 
 [1]: http://expressjs.com/
