@@ -14,7 +14,7 @@ The mighty [Maciej Malecki][1] created a [European npm mirror][2] for all the No
 Here are some stats&trade; on installing the yeoman-generator module.
 
     npm install --registry http://registry.npmjs.org yeoman-generator  10.09s user 1.62s system 47% cpu 24.473 total
-    npm install --registry http://regustry.npmjs.eu yeoman-generator  6.10s user 1.11s system 34% cpu 20.903 total
+    npm install --registry http://registry.npmjs.eu yeoman-generator  6.10s user 1.11s system 34% cpu 20.903 total
 
 So 6.10 seconds in Europe, 10.09 seconds from the main registry. Four seconds faster.
 
