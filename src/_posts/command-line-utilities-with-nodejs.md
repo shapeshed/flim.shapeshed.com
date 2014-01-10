@@ -102,7 +102,7 @@ Signals are another really powerful feature that allow other parts of a UNIX eco
 
 ## Some useful libraries
 
-After a while you'll find yourself repeating a lot of code. The Node.js community has already done a lot of work for you here. The two libaries I would recommend for writing command line scripts are [commander][7] and [optimist][8]. Both of them perform very similar things with commander having a few more features and offering a slicker api. Personally I really like optimist as I like my tools small and compact but both are really good. Other libraries you might want to look at include [cli][9] and [nopt][10].
+After a while you'll find yourself repeating a lot of code. The Node.js community has already done a lot of work for you here. The two libaries I would recommend for writing command line scripts are [commander][7] and [optimist][8]. Both of them perform very similar things with commander having a few more features and offering a slicker api. Personally I really like optimist as I like my tools small and compact but both are really good. Other libraries you might want to look at include [cli][9], [nopt][10] and [Inquirer.js][12].
 
 ## Conclusion
 
@@ -129,3 +129,4 @@ In short I think people should be using Node.js more for CLI tools and using npm
 [9]: https://github.com/chriso/cli
 [10]: https://github.com/isaacs/nopt
 [11]: http://nodejs.org/api/child_process.html
+[12]: https://github.com/SBoudrias/Inquirer.js
