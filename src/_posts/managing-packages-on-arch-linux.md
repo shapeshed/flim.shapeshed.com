@@ -16,7 +16,7 @@ Arch's package manager Pacman is great. It makes it really easy to update and ma
 
 Before too long you'll find that you want to install something from the Arch User Repository. This allows community members to create and share PKGBUILD files. It is also easy to [create your own][1] if whatever you want isn't already in the AUR. 
 
-To work with packages from the AUR there are a few options to choose from. Many go for [yaourt][1] but personally I prefer the more lightweight [cower][2].
+To work with packages from the AUR there are a few options to choose from. Many go for [yaourt][2] but personally I prefer the more lightweight [cower][3].
 
 ## Managing updates
 
