@@ -87,7 +87,7 @@ Node.js has great UNIX support including for Signals. This means you can send a 
     process.on('SIGINT', function () {
       console.log('Got a SIGINT. Goodbye cruel world');
       process.exit(0);
-    }
+    });
 
 If you run this script you can either send it a SIGINT by pressing CTRL-C on your keyboard or you can send it a signal after finding out the pid of the process.
 
