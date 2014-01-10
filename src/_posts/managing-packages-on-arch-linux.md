@@ -39,6 +39,14 @@ Now whenever you want to you can glance up to the top right of the screen and se
 
 ![cower icons][5]
 
+Another alternative is to use `checkupdates`, one of the many useful helper scripts bundled with pacman. For details, run 
+    
+    checkupdates -h
+    
+To see the full list of the helper scripts, run
+
+    pacman -Ql pacman | awk -F/ '/bin/ {print $4}'
+
 ## Cower
 
 I really like cower. It does just enough. I like to review what has changed and check PKGBUILD files before I install them. I took most of [Jason Ryan's][6] [cowerd][7] script and have it in my PATH like this.
