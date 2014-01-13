@@ -4,7 +4,7 @@
   "date": "Mon Jan 06 2014 20:30:00 GMT+0000 (GMT)",
   "description": "Time to make a tasty loaf with a really simple recipe. Roll up your sleeves and get your hands dirty.",
   "tags": [
-    "Opinion"
+    "Food"
   ]
 }
 
