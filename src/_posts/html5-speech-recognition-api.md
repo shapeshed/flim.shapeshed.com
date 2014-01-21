@@ -19,7 +19,7 @@ Chrome version 25 [rolled out speech recognition][1] so you can now invite users
     }
     recognition.start();
 
-This will invite the user to allow a page access to their microphone. If you allow access you can start talking and when you stop the `onresult` event will be fired and making the result available a JavaScript object.
+This will invite the user to allow a page access to their microphone. If you allow access you can start talking and when you stop the `onresult` event will be fired and making the result available as a JavaScript object.
 
 Within this object is the result
 
