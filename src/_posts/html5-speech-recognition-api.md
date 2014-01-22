@@ -82,7 +82,7 @@ I can see the Speech Recognition API being very useful if results are good for p
 
 At the time of writing browser support seems patchy with Chrome seeming to be the only vendor to have implemented it. 
 
-After writing the article [@TalAter][5] contacted me about [annyang][6] a library he has written to make using the API easier.
+After writing the article [@TalAter][5] contacted me about [annyang][6], a library he has written to make using the API easier.
 
 ## References 
 
