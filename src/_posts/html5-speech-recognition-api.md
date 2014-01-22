@@ -19,7 +19,7 @@ Chrome version 25 [rolled out speech recognition][1] so you can now invite users
     }
     recognition.start();
 
-This will invite the user to allow a page access to their microphone. If you allow access you can start talking and when you stop the `onresult` event will be fired and making the result available as a JavaScript object.
+This will invite the user to allow a page access to their microphone. If you allow access you can start talking and when you stop the `onresult` event will be fired, making the results of the speech capture available as a JavaScript object.
 
 Within this object is the result
 
@@ -82,6 +82,8 @@ I can see the Speech Recognition API being very useful if results are good for p
 
 At the time of writing browser support seems patchy with Chrome seeming to be the only vendor to have implemented it. 
 
+After writing the article [@TalAter][5] contacted me about [annyang][6] a library he has written to make using the API easier.
+
 ## References 
 
 * [Speech recognition demo][1]
@@ -93,3 +95,5 @@ At the time of writing browser support seems patchy with Chrome seeming to be th
 [2]: http://blogs.sitepointstatic.com/examples/tech/speech-input/index.html
 [3]: http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API
 [4]: https://dvcs.w3.org/hg/speech-api/raw-file/9a0075d25326/speechapi.html
+[5]: https://twitter.com/TalAter
+[6]: https://talater.com/annyang/
