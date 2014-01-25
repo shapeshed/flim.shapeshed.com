@@ -16,7 +16,7 @@ Comet made the most of what browsers had to offer and supported near real-time c
 
 ## The Enigma that is REST
 
-I'm a disciple of [REST][6] but like many I find it frustrating and enigmatic. It is designed by a Yoda like figure in Ray Fielding who occassionally clarifies parts of what REST should and shouldn't be. Broadly I follow the convention that has emerged in the last few years around web APIs. In the context of the web I would much rather be using REST than RPC or SOAP. In short although I have a few annoyances I'm sold on REST.
+I'm a disciple of [REST][6] but like many I find it frustrating and enigmatic. It was [defined][9] by a Yoda like figure in [Roy Fielding][8] who occassionally [clarifies][10] parts of what REST should and shouldn't be. Broadly I follow the convention that has emerged in the last few years around web APIs. In the context of the web I would much rather be using REST than RPC or SOAP. In short although I have a few annoyances I'm sold on REST.
 
 ## Enter JavaScript
 
@@ -92,3 +92,6 @@ The web needs to break out of the request reponse cycle and embrace events. Ther
 [5]: https://en.wikipedia.org/wiki/Ajax_(programming)
 [6]: https://en.wikipedia.org/wiki/REST
 [7]: http://www.whatwg.org/specs/web-socket-protocol/
+[8]: http://roy.gbiv.com/
+[9]: http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+[10]: http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
