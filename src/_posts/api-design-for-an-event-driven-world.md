@@ -16,7 +16,7 @@ Comet made the most of what browsers had to offer and supported near real-time c
 
 ## The Enigma that is REST
 
-I'm a disciple of [REST][6] but like many I find it frustrating and enigmatic. It is designed by a Yoda like figure in Ray Fielding who occassionally clarifies parts of what REST should and shouldn't be. Broadly I follow the convetion that has emerged in the last few years around web APIs. In the context of the web I would much rather be using REST than RPC or SOAP. In short although I have a few annoyances I'm sold on REST.
+I'm a disciple of [REST][6] but like many I find it frustrating and enigmatic. It is designed by a Yoda like figure in Ray Fielding who occassionally clarifies parts of what REST should and shouldn't be. Broadly I follow the convention that has emerged in the last few years around web APIs. In the context of the web I would much rather be using REST than RPC or SOAP. In short although I have a few annoyances I'm sold on REST.
 
 ## Enter JavaScript
 
@@ -24,7 +24,7 @@ Over the last couple of years a little, so called toy language called JavaScript
 
 ## Events
 
-For me one of the reasons that JavaScript is succeeding is events. It is an event driven language which completely suits the nature of a distributed, random Internet. Game developers have long realised that making sense of the chaos of unpredictable occurances is best handled through a game or event loop. Imagine building a 3D mutliplayer game in a procedural fashion for example. Increasingly the same is true of the web. Data is distrubuted everywhere, humans and machines trigger events all the time and as programmers we are expected to make sense of it. 
+For me one of the reasons that JavaScript is succeeding is events. It is an event driven language which completely suits the nature of a distributed, random Internet. Game developers have long realised that making sense of the chaos of unpredictable occurances is best handled through a game or event loop. Imagine building a 3D multiplayer game in a procedural fashion for example. Increasingly the same is true of the web. Data is distributed everywhere, humans and machines trigger events all the time and as programmers we are expected to make sense of it. 
 
 ## WebSockets
 
@@ -36,7 +36,7 @@ WebSockets are a hugely exciting thing for the web. A client and server are able
 
 This basically renders the request response cycle a dinosaur reserved for exchanging documents.
 
-How does the spec mandate that you handle communciation for this type of scenario? Events. Indeed response codes are reserved for disconnections or application specific events. The request response paradigm doesn't exist here so how should you design you communication flow between client and server in this context? Currently it is a free for all and you can design your data in any way that you want to.
+How does the spec mandate that you handle communication for this type of scenario? Events. Indeed response codes are reserved for disconnections or application specific events. The request response paradigm doesn't exist here so how should you design you communication flow between client and server in this context? Currently it is a free for all and you can design your data in any way that you want to.
 
 ## Approaches to modelling events
 
