@@ -79,7 +79,7 @@ I don't have answers to these questions now, but as a web community I feel we sh
 
 ## Conclusion
 
-Watching the web unfold before my eyes every day is still as thrilling as the day I managed to FTP my first HTML file across a dial-up connection and onto the Internet. Request response cycles have got the web to where it is now but it is changing at an incredible pace. More and more devices are connected to the web, some with humans attached to them, some without. If we are to make sense of this chaos where fridges talk to supermarkets, lightbulbs send you notifications that you just got paid, bus stops show your where you bus is in real-time we must start thinking of the web in terms of events.
+Watching the web unfold before my eyes every day is still as thrilling as the day I managed to FTP my first HTML file across a dial-up connection and onto the Internet. Request response cycles have got the web to where it is now but it is changing at an incredible pace. More and more devices are connected to the web, some with humans attached to them, some without. If we are to make sense of this chaos where fridges talk to supermarkets, lightbulbs send you notifications that you just got paid, bus stops show you where your bus is in real-time we must start thinking of the web in terms of events.
 
 REST and HATEOS work for documents where documents are transferred on a request response cycle. Where devices are connected with a persistent connection they are deficient because they are procedural. Events are not procedural. They are chaotic and can happen at any time and arrive from anywhere. 
 
