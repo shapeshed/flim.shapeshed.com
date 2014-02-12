@@ -50,6 +50,8 @@ Objects are one of JavaScript's best parts and this means you can model almost a
       // update user here      
     });
 
+This pattern attempts to take RESTful conventions and apply them to an RPC style API.
+
 This approach is possible with libraries like [Socket.IO][1] and [SignalR][2] that create and expose namespaced events based on what the client and/or server send. Other libraries like [SockJS][3] ask developers to push design entirely into the data payload so there is no framework for sending and receiving data, just data. In fact SockJS follows the WebSocket protocol pretty closely. The WebSocket protocol has no standard for formatting messages. 
 
     conn.on('data', function(data) {
@@ -83,7 +85,7 @@ Watching the web unfold before my eyes every day is still as thrilling as the da
 
 REST and HATEOS work for documents where documents are transferred on a request response cycle. Where devices are connected with a persistent connection they are deficient because they are procedural. Events are not procedural. They are chaotic and can happen at any time and arrive from anywhere. 
 
-The web needs to break out of the request reponse cycle and embrace events. There is a lot of work to be done. 
+The web needs to break out of the request reponse cycle and embrace events. Event-driven APIs are really RPC APIs and there are no conventions around their design. There is a lot of work to be done. 
 
 [1]: http://socket.io/
 [2]: http://signalr.net/
