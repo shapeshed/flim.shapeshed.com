@@ -43,6 +43,15 @@ Or you can set this in your `package.json` file
     "publishConfig": {
       "registry":"http://registry.npmjs.org/"
     }
+    
+
+## Modifying config once for all
+
+If you are willing to modify `~/.npmrc` or for all you can do that easily with `sed` like:
+
+```sh
+$ sed -ie 's/registry.*$/registry \= http:\/\/registry.npmjs.eu/g' ~/.npmrc
+```
 
 ## Conclusion
 
