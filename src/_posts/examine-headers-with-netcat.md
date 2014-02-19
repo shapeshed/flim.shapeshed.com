@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Examining request headers with netcat",
   "date": "Wed Feb 19 2014 08:38:19 GMT+0000 (GMT)",
-  "description": "How to use Netcat to examine request headers from user agents or applicaitons",
+  "description": "How to use Netcat to examine request headers from user agents or applications.",
   "tags": [
     "Opinion"
   ]
