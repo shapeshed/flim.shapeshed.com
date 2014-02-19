@@ -42,7 +42,7 @@ Here's another example with the [Chromium][5] browser in incognito mode.
     Accept-Encoding: gzip,deflate,sdch
     Accept-Language: en-US,en;q=0.8
 
-More likely you will want to direct a request from within your application to netcat to see verify your headers. Netcat is a super simple way to quickly debug and examine headers from outside your application.
+More likely you will want to direct a request from within your application to netcat to verify your headers. Netcat is a super simple way to quickly debug and examine headers from outside your application.
 
 [1]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43
 [2]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8
