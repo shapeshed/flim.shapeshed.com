@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "Getting started with Go",
   "date": "Fri Mar 14 2014 14:26:38 GMT+0000 (GMT)",
-  "description": "Time to learn another language. Next up Go."
+  "description": "Time to learn another language because I've got a restless brain. Next up Go.",
   "tags": [
     "Go"
   ]
@@ -43,8 +43,6 @@ You can run the code with
 You can also build your hello world program into a binary
 
     go build hello-world
-
-This has the effect of creating an executable binary file.
 
 You can now run the compiled code with 
 
