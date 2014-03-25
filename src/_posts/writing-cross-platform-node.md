@@ -95,6 +95,16 @@ The solution is to use the node executable.
 
 This works for all platforms rather than just OSX and Linux.
 
+## Join shell commands with a double ampersand instead of a semi-colon
+
+If you are working with any form of executing command-line programs, and you like to execute more than one in a single go, you would probably do so like this (let's use the basic act of creating a folder and cd'ing into it for brevity):
+
+    shell.exec('mkdir folder_name; cd folder_name');
+    
+Unfortunately, that does not work on Windows. Instead, use this:
+
+    shell.exec('mkdir folder_name && cd folder_name');
+
 ## Use the os module for more control
 
 If you need even more control you can get the platform you are running on react accordingly with the [os module][3].
