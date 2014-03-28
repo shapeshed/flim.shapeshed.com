@@ -44,6 +44,23 @@ Or you can set this in your `package.json` file
       "registry":"http://registry.npmjs.org/"
     }
 
+## nrm
+
+If you frequently want to switch modules the [nrm][4] module may help.
+
+    $ nrm ls
+
+    * npm ---- https://registry.npmjs.org/
+      cnpm --- http://r.cnpmjs.org/
+      eu ----- http://registry.npmjs.eu/
+      au ----- http://registry.npmjs.org.au/
+      sl ----- http://npm.strongloop.com/
+      nj ----- https://registry.nodejitsu.com/
+
+    $ nrm use cnpm  //switch registry to cnpm
+
+Thanks to [hemanth.hm][5] for this tip.
+
 ## Conclusion
 
 If you are in Europe enjoy a faster, sexier npm experience by switching to the European registry! You can also bask in the warm glow of being a good npm citizen by taking some load off the main repository.
@@ -53,3 +70,5 @@ Given [CouchDB][3]'s excellent replication capabilities it would be nice to see 
 [1]: http://mmalecki.com/
 [2]: http://npmjs.eu/
 [3]: https://couchdb.apache.org/
+[4]: https://www.npmjs.org/package/nrm
+[5]: http://www.h3manth.com/
