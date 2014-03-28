@@ -105,22 +105,18 @@ Unfortunately, that does not work on Windows. Instead, use this:
 
     shell.exec('mkdir folder_name && cd folder_name');
 
-Thanks to [Declan de Wet][6] for this tip.
-
-## Temporary files
-
-If you need to write files to a `tmp` folder use `os.tmpdir()` to ensure you write to the correct tmp file location for you platform. Thanks to [@alessioalex][5] for this tip. 
-
 ## Use the os module for more control
 
-If you need even more control you can get the platform you are running on react accordingly with the [os module][3].
+If you need even more control you can get the operating system platform and CPU architecture you are running on react accordingly with the [os module][3].
 
     var os = require('os');
     os.platform();
     // 'linux' on Linux
-    // 'win32' on Windows 32-bit
-    // 'win64' on Windows 64-bit
+    // 'win32' on Windows
     // 'darwin' on OSX
+    os.arch();
+    // 'x86' on 32-bit CPU architecture
+    // 'x64' on 64-bit CPU architecture
 
 ## Conclusion
 
@@ -135,6 +131,3 @@ One of the major strengths of Node.js is the ability to deploy your code on any 
 [1]: http://nodejs.org/api/path.html
 [2]: http://dailyjs.com/2012/05/24/windows-and-node-4/
 [3]: http://nodejs.org/api/os.html
-[4]: http://nodejs.org/api/os.html#os_os_tmpdir
-[5]: https://github.com/alessioalex
-[6]: http://declandewet.com
