@@ -111,6 +111,16 @@ Thanks to [Declan de Wet][6] for this tip.
 
 If you need to write files to a `tmp` folder use `os.tmpdir()` to ensure you write to the correct tmp file location for you platform. Thanks to [@alessioalex][5] for this tip. 
 
+## Home directories
+
+On \*nix your home directory is process.env.HOME but in Windows the home directory is proces.env.HOMEPATH. You can smooth this out with
+
+    var homedir = (process.platform === 'win32') ? process.env.HOMEPATH : process.env.HOME;
+
+The [module-smith][8] module takes care of this for you so if you are interested in writing cross-platform modules consider using this. 
+
+Thanks to [indexzero][7] for this tip. 
+
 ## Use the os module for more control
 
 If you need even more control you can get the platform you are running on react accordingly with the [os module][3].
@@ -138,3 +148,5 @@ One of the major strengths of Node.js is the ability to deploy your code on any 
 [4]: http://nodejs.org/api/os.html#os_os_tmpdir
 [5]: https://github.com/alessioalex
 [6]: http://declandewet.com
+[7]: https://github.com/indexzero
+[8]: https://www.npmjs.org/package/module-smith
