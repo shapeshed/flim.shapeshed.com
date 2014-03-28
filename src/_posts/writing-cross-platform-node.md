@@ -109,7 +109,7 @@ Thanks to [Declan de Wet][6] for this tip.
 
 ## Temporary files
 
-If you need to write files to a `tmp` folder use `os.tmpdir()` to ensure you write to the correct tmp file location for you platform. Thanks to [@alessioalex][5] for this tip. 
+If you need to write files to a `tmp` folder use `os.tmpdir()` to ensure you write to the correct tmp file location for you platform. Thanks to [alessioalex][5] for this tip. 
 
 ## Home directories
 
