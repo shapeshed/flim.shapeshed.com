@@ -141,6 +141,7 @@ One of the major strengths of Node.js is the ability to deploy your code on any 
 * [Core path module][1]
 * [Core os module][3]
 * [Windows and Node: Writing Portable Code][2]
+* [Tips for Writing Portable Node.js Code][8]
 
 [1]: http://nodejs.org/api/path.html
 [2]: http://dailyjs.com/2012/05/24/windows-and-node-4/
@@ -150,3 +151,4 @@ One of the major strengths of Node.js is the ability to deploy your code on any 
 [6]: http://declandewet.com
 [7]: https://github.com/indexzero
 [8]: https://www.npmjs.org/package/module-smith
+[9]: https://gist.github.com/domenic/2790533
