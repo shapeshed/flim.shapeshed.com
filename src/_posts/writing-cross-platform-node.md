@@ -22,7 +22,7 @@ Consider you are doing some string concatantion to build a path for example.
     var bar = 'bar';
     var filePath = foo + '/' + bar + '/';
 
-This will work fine on OSX and Linux but not on Windows where \ is expected. This is the wrong way to do it.
+Whilst forward slashes will work ok on Windows if you do string concatenation you miss out on the protection that the path module in Node.js gives you.
 
 The [path][1] module gives you all of the tools you need to handle cross-platform paths. For this example we need `path.join`.
 
@@ -67,7 +67,7 @@ Let's say you have the following executable script `npm-postinstall` in the bin 
     #!/usr/bin/env node
     console.log('node modules installed!');
 
-If you define scripts to be run in your package.json you will find that Windows will choke if you use `./` and rely on a Node.js shebang.
+If you define scripts to be run in your package.json you will find that Windows will choke if you rely on a Node.js shebang.
 
     {
       "name": "some-app",
