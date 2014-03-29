@@ -104,8 +104,17 @@ If you are working with any form of executing command-line programs, and you lik
 Unfortunately, that does not work on Windows. Instead, use this:
 
     shell.exec('mkdir folder_name && cd folder_name');
+    
+## Cross Platform Newline Characters
 
-Thanks to [Declan de Wet][6] for this tip.
+We all know how troublesome newline characters are accross platforms. Some platforms use '\n', others use '\r', and the rest use both. If you are struggling to get the newline character to work in your log statements or strings on multiple platforms, then you might consider a solution that uses nasty regular expressions to match the correct newline character that you want. Usually, that would look like this: `/(?:\r\n|[r\n])/`. Yuck. Here's a better approach. The `OS` module has an `EOL` constant attached to it that when referred, will output the correct newline character for the operating system.
+
+  var os = require('os'),
+      EOL = os.EOL;
+      
+  console.log('This text will print' + EOL + 'on three lines' + EOL + 'no matter the OS');
+
+Thanks to [Declan de Wet][6] for the above two tips.
 
 ## Temporary files
 
