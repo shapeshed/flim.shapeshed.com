@@ -86,6 +86,21 @@ I found that documentation was a little patchy - the best place for documentatio
 
 Gitosis is so much better than using Unix accounts to provide access to a repository. With a shared key a developer can easily be given access to one or more repositories, be locked to just read access or given full permissions. It is working really well for me. Highly recommended!
 
+## Solution 3
+
+Edit .git/config and add:
+
+sharedRepository = group
+
+  or
+
+sharedRepository = 0660
+
+to [core]
+
+as mentioned in https://www.kernel.org/pub/software/scm/git/docs/git-config.html
+
+
 ## Related links
 
 * [How do I share a Git repository with multiple users on a machine?][1] - Serverfault question on sharing git repositories
