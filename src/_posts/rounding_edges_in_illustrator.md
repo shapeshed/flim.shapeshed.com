@@ -37,7 +37,13 @@ Now you can reuse this style with other elements in your design. Create some tex
 
 With the style in your Graphic Styles box it is pretty easy to give a curved edge to almost anything. Here's a button for example. If I want a curved edge on it then I just click the Graphic Style.
 
-![Rounded Buttons][6] 
+![Rounded Buttons][6]
+
+## Another technique
+
+If you have to modify the shape beyond the stroke, you can also use Effect > Stylize > Round Corners… As this is a dynamic effect that is applied on the appearance of you object, you can modify the value of the roundness later on.
+
+![Rounded Shape][7]
 
 Want to work through these examples? [Here's the illustrator file][1]
 
@@ -47,3 +53,4 @@ Want to work through these examples? [Here's the illustrator file][1]
  [4]: http://shapeshed.com/images/articles/two_stars.png 
  [5]: http://shapeshed.com/images/articles/text_curved.png 
  [6]: http://shapeshed.com/images/articles/curved_button.png 
+ [7]: http://f.cl.ly/items/3s1F1u1w3h0G3L0x3G3y/round-shape-effect.png
