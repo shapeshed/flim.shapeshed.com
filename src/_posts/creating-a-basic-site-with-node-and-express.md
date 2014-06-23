@@ -40,7 +40,7 @@ Still with me? We've covered a lot already! Now let's create an Express site.
 
 First let's install express
 
-    npm install -g express
+    npm install -g express-generator
 
 The `-g` flag means that you are installing express globally on your system. 
 
