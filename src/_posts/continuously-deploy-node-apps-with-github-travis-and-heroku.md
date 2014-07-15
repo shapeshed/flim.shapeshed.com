@@ -72,10 +72,6 @@ By default Travis will try to deploy to a Heroku application with the same name 
         secure: FF7yK....
 
 Commit the file to your git repository and push the file up to GitHub.
-
-Finally for an application to work on Heroku it needs a `Procfile`. This is so Heroku knows how to start a Node.js application. For the example project you can see this file [here][12]
-
-    web: node app.js
     
 ## The build and deployment pipeline
 
