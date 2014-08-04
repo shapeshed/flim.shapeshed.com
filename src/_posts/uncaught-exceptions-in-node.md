@@ -84,7 +84,7 @@ With this approach you simply let your application crash in the event of an unca
 
       var http = require('http');
       http.createServer(function (req, res) {
-        res.end('Look Mum! I'm a server!\n');
+        res.end("Look Mum! I'm a server!\n");
       }).listen(3000, "127.0.0.1");
 
     }
