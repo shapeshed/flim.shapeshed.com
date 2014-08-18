@@ -109,7 +109,6 @@ Using nodemon means you don't have to restart your app each time you make a chan
 
 Express is agnostic as to which templating language you use. Templating languages can be a hot topic of debate but for this article I'm going to use [jade][19]. If you've used [haml][28] it is similar to that. In the example we use jade to setup a layout template.
 
-    !!! 5
     html
       head
         title= title
