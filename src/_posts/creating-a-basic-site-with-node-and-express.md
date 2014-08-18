@@ -83,7 +83,7 @@ That's all the setup you need. Phew. Now you can boot the app:
 
     node app.js
 
-You should see `Express server listening on port 3000` and if you open [http://127.0.0.1:3000][39] you'll see the default Express page.
+You should see `Express server listening on port 3000` and if you open [http://127.0.0.1:3000][39] you'll see the default Express page. If are not seeing "Welcome to Express" in the browser, edit the app.js file under the express_example folder and add app.listen(3000); line to the bottom of the file.
 
 ## Using Git
 
