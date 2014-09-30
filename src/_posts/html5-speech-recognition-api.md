@@ -41,7 +41,7 @@ Within this object is the result
 
 ## Streaming results
 
-You can either wait until the user has started talking or have results pushed to you when they are ready.
+You can either wait until the user has stopped talking or have results pushed to you when they are ready.
     
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
