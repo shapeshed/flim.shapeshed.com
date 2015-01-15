@@ -1,6 +1,6 @@
 {
   "layout": "post",
-  "title": "The HTML5 Speech Recogntion API",
+  "title": "The HTML5 Speech Recognition API",
   "date": "Tue Jan 21 2014 16:04:36 GMT+0000 (GMT)",
   "description": "The HTML5 Speech Recognition API allows JavaScript to have access to a browser's audio stream and convert it to text.",
   "tags": [
