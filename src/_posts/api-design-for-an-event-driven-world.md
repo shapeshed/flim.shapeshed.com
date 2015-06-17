@@ -2,7 +2,7 @@
   "layout": "post",
   "title": "API design for an event-driven world",
   "date": "Fri Jan 24 2014 15:39:29 GMT+0000 (GMT)",
-  "description": "REST and HATEOS are designed around request response cycles. New thinking is needed for bidirectional, event-driven, realtime APIs.",
+  "description": "REST and HATEOAS are designed around request response cycles. New thinking is needed for bidirectional, event-driven, realtime APIs.",
   "tags": [
     "Opinion"
   ]
@@ -77,13 +77,13 @@ WebSocket type interfaces can then receive the data and act accordingly
     
 As I see it this is the defacto standard. This makes sense but how do you provide a sane consistent API? There is no convention like REST beyond the understanding that there are events and that within them there are data objects. Do you structure your events around your data models and then include REST style HTTP verbs within your data object to declare the operation that you want to perform? Are data models outdated in the context of events? How do you deal with validation? How do you document this? 
 
-I don't have answers to these questions now, but as a web community I feel we should start thinking about them. The web will become more event driven and less bound to request response cycles as it evolves. Currently the best minds are still thinking about REST and HATEOS with little or no thought being given about how events might eventually drive the web entirely. Why would we stick with request response for anything but old school documents when persistent connections are cheap, (nearly) real-time and can push data around the web without the need to click a link? 
+I don't have answers to these questions now, but as a web community I feel we should start thinking about them. The web will become more event driven and less bound to request response cycles as it evolves. Currently the best minds are still thinking about REST and HATEOAS with little or no thought being given about how events might eventually drive the web entirely. Why would we stick with request response for anything but old school documents when persistent connections are cheap, (nearly) real-time and can push data around the web without the need to click a link? 
 
 ## Conclusion
 
 Watching the web unfold before my eyes every day is still as thrilling as the day I managed to FTP my first HTML file across a dial-up connection and onto the Internet. Request response cycles have got the web to where it is now but it is changing at an incredible pace. More and more devices are connected to the web, some with humans attached to them, some without. If we are to make sense of this chaos where fridges talk to supermarkets, lightbulbs send you notifications that you just got paid, bus stops show you where your bus is in real-time we must start thinking of the web in terms of events.
 
-REST and HATEOS work for documents where documents are transferred on a request response cycle. Where devices are connected with a persistent connection they are deficient because they are procedural. Events are not procedural. They are chaotic and can happen at any time and arrive from anywhere. 
+REST and HATEOAS work for documents where documents are transferred on a request response cycle. Where devices are connected with a persistent connection they are deficient because they are procedural. Events are not procedural. They are chaotic and can happen at any time and arrive from anywhere. 
 
 The web needs to break out of the request reponse cycle and embrace events. Event-driven APIs are really RPC APIs and there are no conventions around their design. There is a lot of work to be done. 
 
