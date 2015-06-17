@@ -107,11 +107,9 @@ Then you can start your app with
 
     nodemon
 
-nodemon automatically looks in your project setting to find the appropriate files and setting to start your server. If this does not work try:
+Nodemon automatically looks in your project setting to find the appropriate files and setting to start your server. If this does not work try:
 
     nodemon app.js
-
-
 
 Using nodemon means you don't have to restart your app each time you make a change. For more infomation on nodemon see the [README][27]
 
