@@ -83,6 +83,10 @@ That's all the setup you need. Phew. Now you can boot the app:
 
     node app.js
 
+With a recent express version this command has changed, so if the app doesn't start you can try
+
+    npm start
+
 You should see `Express server listening on port 3000` and if you open [http://127.0.0.1:3000][39] you'll see the default Express page.
 
 ## Using Git
@@ -101,7 +105,13 @@ Normally when you develop a Node.js site you'll need ot restart your application
 
 Then you can start your app with 
 
+    nodemon
+
+nodemon automatically looks in your project setting to find the appropriate files and setting to start your server. If this does not work try:
+
     nodemon app.js
+
+
 
 Using nodemon means you don't have to restart your app each time you make a change. For more infomation on nodemon see the [README][27]
 
