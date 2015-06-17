@@ -132,7 +132,7 @@ Thanks to [indexzero][7] for this tip.
 
 ## Use the os module for more control
 
-If you need even more control you can get the platform you are running on react accordingly with the [os module][3].
+If you need even more control you can get the operating system platform and CPU architecture you are running on react accordingly with the [os module][3].
 
     var os = require('os');
     os.platform();
@@ -140,6 +140,9 @@ If you need even more control you can get the platform you are running on react 
     // 'win32' on Windows 32-bit
     // 'win64' on Windows 64-bit
     // 'darwin' on OSX
+    os.arch();
+    // 'x86' on 32-bit CPU architecture
+    // 'x64' on 64-bit CPU architecture
 
 ## Conclusion
 
