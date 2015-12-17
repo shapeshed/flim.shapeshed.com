@@ -72,7 +72,7 @@ Void in JavaScript is one of Crockford's bad parts of Javascript
 
 -- <cite>[Douglas Crockford][1]</cite>
 
-ES5 [defines void][2] as a unary operator returning undefined for whatever it is given. Noteably `void` is also a reserved work in JavaScript meaning you cannot reassign void. In the console we can see what void does
+ES5 [defines void][2] as a unary operator returning undefined for whatever it is given. Noteably `void` is also a reserved word in JavaScript meaning you cannot reassign void. In the console we can see what void does
 
     void 0
     undefined
