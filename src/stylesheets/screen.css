@@ -437,4 +437,13 @@ sup a {
 
 .date {
   color: #999;
+  float: left;
+  clear: left;
+}
+.twitter {
+  float: right;
+}
+
+h1 {
+  clear: left;
 }
