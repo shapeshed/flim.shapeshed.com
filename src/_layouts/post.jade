@@ -3,7 +3,7 @@ extends layout
 block content
   article
     p.twitter
-      a(href="https://twitter.com/shapeshed") @shapeshed
+      a.highlight(href="https://twitter.com/shapeshed") Follow me: @shapeshed
     p.date 
       time(datetime="#{post.date.toISOString()}", data-updated="true", itemprop="datePublished")= post.date.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
     h1(itemprop="headline name") #{post.title}
