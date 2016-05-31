@@ -108,10 +108,9 @@ With this approach you simply let your application crash in the event of an unca
     });
 
     d.run(function() {
-      fs.readFile('somefile.txt', function (err, data) {
-        if (err) throw err;
+      fs.readFile('somefile.txt', d.intercept(function (data) {
         console.log(data);
-      });
+      }));
     });
 
 ### Conclusion
